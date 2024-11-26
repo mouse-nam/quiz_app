@@ -22,7 +22,11 @@ class _QuizAppState extends State<QuizApp> {
         backgroundColor: Colors.blueGrey,
       ),
       backgroundColor: Colors.blueGrey,
-      body: Container(),
+      body: Container(
+        child: Column(
+          children: <Widget>[Image.asset("images/flag.png")],
+        ),
+      ),
     );
   }
 }
